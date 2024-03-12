@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,12 +10,12 @@ namespace Nameless_BlackJack
     public class Card
     {
         private int _pointvalue;
-        private string _imagepath;
+        private Image _image;
 
-        public Card(int PointValue, string ImagePath) 
+        public Card(int PointValue, Image Image) 
         {
             _pointvalue = PointValue;
-            _imagepath = ImagePath;
+            _image = Image;
         }
 
         public int PointValue 
@@ -23,11 +24,10 @@ namespace Nameless_BlackJack
             set { _pointvalue = value; }
         }
 
-        public string ImagePath 
+        public Image Image 
         {
-            get { return _imagepath; }
-            set { _imagepath = value; }
-
+            get { return _image; }
+            set { _image = value; }
         }
     }
 }

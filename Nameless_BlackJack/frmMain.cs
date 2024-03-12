@@ -38,71 +38,73 @@ namespace Nameless_BlackJack
 
         public void CreateCardObjects() 
         {
-            CardsArray[0] = new Card(10, @"Cards/10_of_clubs.png");
-            CardsArray[1] = new Card(10, @"Cards/10_of_diamonds.png");
-            CardsArray[2] = new Card(10, @"Cards/10_of_hearts.png");
-            CardsArray[3] = new Card(10, @"Cards/10_of_spades.png");
+            CardsArray[0] = new Card(2, Properties.Resources._2_of_clubs);
+            CardsArray[1] = new Card(2, Properties.Resources._2_of_diamonds);
+            CardsArray[2] = new Card(2, Properties.Resources._2_of_hearts);
+            CardsArray[3] = new Card(2, Properties.Resources._2_of_spades);
 
-            CardsArray[4] = new Card(2, @"Cards/2_of_clubs.png");
-            CardsArray[5] = new Card(2, @"Cards/2_of_diamonds.png");
-            CardsArray[6] = new Card(2, @"Cards/2_of_hearts.png");
-            CardsArray[7] = new Card(2, @"Cards/2_of_spades.png");
+            CardsArray[4] = new Card(3, Properties.Resources._3_of_clubs);
+            CardsArray[5] = new Card(3, Properties.Resources._3_of_diamonds);
+            CardsArray[6] = new Card(3, Properties.Resources._3_of_hearts);
+            CardsArray[7] = new Card(3, Properties.Resources._3_of_spades);
 
-            CardsArray[8] = new Card(3, @"Cards/3_of_clubs.png");
-            CardsArray[9] = new Card(3, @"Cards/3_of_diamonds.png");
-            CardsArray[10] = new Card(3, @"Cards/3_of_hearts.png");
-            CardsArray[11] = new Card(3, @"Cards/3_of_spades.png");
+            CardsArray[8] = new Card(4, Properties.Resources._4_of_clubs);
+            CardsArray[9] = new Card(4, Properties.Resources._4_of_diamonds);
+            CardsArray[10] = new Card(4, Properties.Resources._4_of_hearts);
+            CardsArray[11] = new Card(4, Properties.Resources._4_of_spades);
 
-            CardsArray[12] = new Card(4, @"Cards/4_of_clubs.png");
-            CardsArray[13] = new Card(4, @"Cards/4_of_diamonds.png");
-            CardsArray[14] = new Card(4, @"Cards/4_of_hearts.png");
-            CardsArray[15] = new Card(4, @"Cards/4_of_spades.png");
+            CardsArray[12] = new Card(5, Properties.Resources._5_of_clubs);
+            CardsArray[13] = new Card(5, Properties.Resources._5_of_diamonds);
+            CardsArray[14] = new Card(5, Properties.Resources._5_of_hearts);
+            CardsArray[15] = new Card(5, Properties.Resources._5_of_spades);
 
-            CardsArray[16] = new Card(5, @"Cards/5_of_clubs.png");
-            CardsArray[17] = new Card(5, @"Cards/5_of_diamonds.png");
-            CardsArray[18] = new Card(5, @"Cards/5_of_hearts.png");
-            CardsArray[19] = new Card(5, @"Cards/5_of_spades.png");
+            CardsArray[16] = new Card(6, Properties.Resources._6_of_clubs);
+            CardsArray[17] = new Card(6, Properties.Resources._6_of_diamonds);
+            CardsArray[18] = new Card(6, Properties.Resources._6_of_hearts);
+            CardsArray[19] = new Card(6, Properties.Resources._6_of_spades);
 
-            CardsArray[20] = new Card(6, @"Cards/6_of_clubs.png");
-            CardsArray[21] = new Card(6, @"Cards/6_of_diamonds.png");
-            CardsArray[22] = new Card(6, @"Cards/6_of_hearts.png");
-            CardsArray[23] = new Card(6, @"Cards/6_of_spades.png");
+            CardsArray[20] = new Card(7, Properties.Resources._7_of_clubs);
+            CardsArray[21] = new Card(7, Properties.Resources._7_of_diamonds);
+            CardsArray[22] = new Card(7, Properties.Resources._7_of_hearts);
+            CardsArray[23] = new Card(7, Properties.Resources._7_of_spades);
 
-            CardsArray[24] = new Card(7, @"Cards/7_of_clubs.png");
-            CardsArray[25] = new Card(7, @"Cards/7_of_diamonds.png");
-            CardsArray[26] = new Card(7, @"Cards/7_of_hearts.png");
-            CardsArray[27] = new Card(7, @"Cards/7_of_spades.png");
+            CardsArray[24] = new Card(8, Properties.Resources._8_of_clubs);
+            CardsArray[25] = new Card(8, Properties.Resources._8_of_diamonds);
+            CardsArray[26] = new Card(8, Properties.Resources._8_of_hearts);
+            CardsArray[27] = new Card(8, Properties.Resources._8_of_spades);
 
-            CardsArray[28] = new Card(8, @"Cards/8_of_clubs.png");
-            CardsArray[29] = new Card(8, @"Cards/8_of_diamonds.png");
-            CardsArray[30] = new Card(8, "Cards/8_of_hearts.png");
-            CardsArray[31] = new Card(8, @"Cards/8_of_spades.png");
+            CardsArray[28] = new Card(9, Properties.Resources._9_of_clubs);
+            CardsArray[29] = new Card(9, Properties.Resources._9_of_diamonds);
+            CardsArray[30] = new Card(9, Properties.Resources._9_of_hearts);
+            CardsArray[31] = new Card(9, Properties.Resources._9_of_spades);
 
-            CardsArray[32] = new Card(9, @"Cards/9_of_clubs.png");
-            CardsArray[33] = new Card(9, @"Cards/9_of_diamonds.png");
-            CardsArray[34] = new Card(9, @"Cards/9_of_hearts.png");
-            CardsArray[35] = new Card(9, @"Cards/9_of_spades.png");
+            CardsArray[32] = new Card(10, Properties.Resources._10_of_clubs);
+            CardsArray[33] = new Card(10, Properties.Resources._10_of_diamonds);
+            CardsArray[34] = new Card(10, Properties.Resources._10_of_hearts);
+            CardsArray[35] = new Card(10, Properties.Resources._10_of_spades);
 
-            CardsArray[36] = new Card(11, @"Cards/ace_of_clubs.png");
-            CardsArray[37] = new Card(11, @"Cards/ace_of_diamonds.png");
-            CardsArray[38] = new Card(11, @"Cards/ace_of_hearts.png");
-            CardsArray[39] = new Card(11, @"Cards/ace_of_spades.png");
+            CardsArray[36] = new Card(10, Properties.Resources.jack_of_clubs);
+            CardsArray[37] = new Card(10, Properties.Resources.jack_of_diamonds);
+            CardsArray[38] = new Card(10, Properties.Resources.jack_of_hearts);
+            CardsArray[39] = new Card(10, Properties.Resources.jack_of_spades);
 
-            CardsArray[40] = new Card(10, @"Cards/jack_of_clubs.png");
-            CardsArray[41] = new Card(10, @"Cards/jack_of_diamonds.png");
-            CardsArray[42] = new Card(10, @"Cards/jack_of_hearts.png");
-            CardsArray[43] = new Card(10, @"Cards/jack_of_spades.png");
+            CardsArray[40] = new Card(10, Properties.Resources.king_of_clubs);
+            CardsArray[41] = new Card(10, Properties.Resources.king_of_diamonds);
+            CardsArray[42] = new Card(10, Properties.Resources.king_of_hearts);
+            CardsArray[43] = new Card(10, Properties.Resources.king_of_spades);
 
-            CardsArray[44] = new Card(10, @"Cards/king_of_clubs.png");
-            CardsArray[45] = new Card(10, @"Cards/king_of_diamonds.png");
-            CardsArray[46] = new Card(10, @"Cards/king_of_hearts.png");
-            CardsArray[47] = new Card(10, @"Cards/king_of_spades.png");
+            CardsArray[44] = new Card(10, Properties.Resources.queen_of_clubs);
+            CardsArray[45] = new Card(10, Properties.Resources.queen_of_diamonds);
+            CardsArray[46] = new Card(10, Properties.Resources.queen_of_hearts);
+            CardsArray[47] = new Card(10, Properties.Resources.queen_of_spades);
 
-            CardsArray[48] = new Card(10, @"Cards/queen_of_clubs.png");
-            CardsArray[49] = new Card(10, @"Cards/queen_of_diamonds.png");
-            CardsArray[50] = new Card(10, @"Cards/queen_of_hearts.png");
-            CardsArray[51] = new Card(10, @"Cards/queen_of_spades.png");
+            CardsArray[48] = new Card(11, Properties.Resources.ace_of_clubs);
+            CardsArray[49] = new Card(11, Properties.Resources.ace_of_diamonds);
+            CardsArray[50] = new Card(11, Properties.Resources.ace_of_hearts);
+            CardsArray[51] = new Card(11, Properties.Resources.ace_of_spades);
+
         }
+
 
         public void CreatePlayerpictureboxes() 
         {
@@ -181,7 +183,7 @@ namespace Nameless_BlackJack
             NewCard = DealCard();
             PlayerHandValue += NewCard.PointValue;
             txtPlayerHandValue.Text = PlayerHandValue.ToString();
-            PlayerPictureboxes[Index].Image = Image.FromFile(NewCard.ImagePath);
+            PlayerPictureboxes[Index].Image = NewCard.Image;
             PlayerPictureboxes[Index].Visible = true;
 
             if (Index > 3) 
@@ -201,7 +203,7 @@ namespace Nameless_BlackJack
             NewCard = DealCard();
             DealerHandValue += NewCard.PointValue;
             txtDealerHandValue.Text = DealerHandValue.ToString();
-            DealerPictureboxes[Index].Image = Image.FromFile(NewCard.ImagePath);
+            DealerPictureboxes[Index].Image = NewCard.Image;
             DealerPictureboxes[Index].Visible = true;
 
             if (Index < 12) 
