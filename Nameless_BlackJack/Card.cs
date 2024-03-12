@@ -27,6 +27,7 @@ namespace Nameless_BlackJack
         {
             get { return _imagepath; }
             set { _imagepath = value; }
+
         }
     }
 }
